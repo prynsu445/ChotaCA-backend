@@ -1,0 +1,11 @@
+POST http://localhost:8080/clients
+Content-Type: application/json
+
+{
+  "clientName": "Rahul Traders",
+  "mobile": "9876543210",
+  "email": "rahul@gmail.com",
+  "panNumber": "ABCDE1234F",
+  "gstNumber": "22ABCDE1234F1Z5",
+  "address": "Kolkata"
+}
