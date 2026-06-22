@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/clients")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://chota-ca-sage.vercel.app")
 public class ClientController {
 
     @Autowired
